@@ -1,0 +1,416 @@
+@media all and (min-width: 767px) and (max-width: 1164px){
+
+	.nav-item a {
+		font-size:12px;
+		margin-left:15px;
+	}
+	.header-btn {
+		width:165px;
+	}
+	.btn {
+		height: 40px;
+		line-height:40px;
+	}
+	.logo-img {
+		width: 180px;
+	}
+}
+
+@media all and (max-width: 768px) {
+
+	.container {
+		width: 310px;
+	}
+
+	.news-container {
+		width: 310px;
+	}
+
+	.footer-container {
+		width: 310px;
+	}
+
+	.copy-bg-container {
+		width: 310px;
+	}
+
+	header {
+		position: fixed;
+		z-index: 99;
+		padding: 0;
+	}
+
+	section {
+		padding: 50px 0 50px;
+	}
+
+	br {
+		display: none;
+	}
+
+	.sp-br {
+		display: block;
+	}
+
+	.text {
+		font-size: 16px;
+		line-height: 28px;
+		letter-spacing: 0;
+	}
+
+	/* ----- 繝倥ャ繝 ----- 繝ｼ*/
+	.logo {
+/*		float: right;
+		margin-right: 15px;*/
+		float: left;
+		margin-left: 15px;
+	}
+
+	.glob-nav {
+		position: absolute;
+		top: 0;
+		right: -100vw;
+		z-index: 100;
+		width: 60vw;
+		height: 100vh;
+		background: rgb(255, 255, 255);
+		opacity:0.95;
+		padding:0 0 0 50px;
+	}
+
+	.close-btn {
+		position: relative;
+		float:right;
+		width: 40px;
+		height: 40px;
+		margin: 30px 20px 0 0;
+	}
+
+	.bar, .bar::after {
+		content: "";
+		display: block;
+		width: 20px;
+		height: 2px;
+		margin: 10px 10px;
+		background: #39CFD2;
+	}
+
+	.bar {
+		position: absolute;
+		top: 5px;
+		transform: rotate(45deg);
+	}
+
+	.bar::after {
+		position: absolute;
+		top: -10px;
+		left: -10px;
+		transform: rotate(-90deg);
+	}
+
+	.sp-btn {
+		display: block;
+	}
+
+	.nav-item {
+		float: right;
+		margin-right: 55px;
+		margin-left:110px;
+	}
+
+	.nav-item:first-child {
+		padding-top: 180px;
+		margin-right: 0px;
+	}
+
+	.nav-item a {
+		color: #39CFD2;
+		margin-left: 10px;
+	}
+
+	.nav-item .btn {
+		position: absolute;
+		top: 90px;
+		width: 200px;
+		border: 2px solid #39CFD2;
+		right:5px;
+	}
+
+
+	/* ----- mv ----- 繝ｼ*/
+/*	.mv {
+		display: none;
+	}*/
+
+	.app-img {
+		display: none;
+	}
+
+	.filter {
+		/*position: static;*/
+		padding-top: 30px;
+		background: linear-gradient(rgb(57, 188, 188),rgba(57, 188, 188,.7), #fff);
+		text-align: center;
+	}
+
+	.mv-copy {
+		padding: 100px 0 75px;
+		font-size: 32px;
+	}
+
+	.mv-copy-s {
+		width: 100%;
+		padding: 0;
+		font-size: 16px;
+	}
+
+	.mv-btn {
+		margin-top: 70px;
+	}
+
+	.mv-btn-img {
+		height: 50px;
+	}
+
+	/* ----- about -----*/
+	h2.heading {
+		font-size: 24px;
+	}
+
+	h2.heading::after {
+		margin: 30px auto;
+	}
+
+    h3.heading {
+		font-size: 20px;
+	}
+
+	/* ----- 繝峨Λ繧､繧｢繧､繝ｪ繧ｺ繝� -----*/
+	.app>.container {
+		position: relative;
+		float: none;
+	}
+
+	.app-container>.heading::before {
+		font-size: 15px;
+	}
+
+	.app-container>.text {
+		padding-top: 300px;
+	}
+
+	.univ-img {
+		float: none;
+		position: absolute;
+		top: 180px;
+		left: 60px;
+		width: 200px;
+	}
+
+	/* ----- simple -----*/
+	.simple {
+		position: relative;
+		height: 1300px;
+	}
+
+	.simple-container {
+		float: none;
+	}
+
+	th, td {
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+
+	.num {
+		width: 30px;
+		height: 30px;
+		font-size: 20px;
+	}
+
+	th {
+		font-size: 25px;
+	}
+
+	table {
+		position: absolute;
+		top: 870px;
+		left: 5px;
+	}
+
+	.simple-img {
+		float: none;
+		position: absolute;
+		top: 320px;
+		left: 30px;
+		width: 250px;
+	}
+	/* ----- app -----*/
+	.app {
+		position: relative;
+		height: 700px;
+	}
+
+	.daily {
+		height: 1050px;
+	}
+
+	.daily-container {
+		float: none;
+	}
+
+	.daily-container>.text {
+		position: absolute;
+		top: 750px;
+		left: 5px;
+		width: 300px;
+		font-size: 15px;
+	}
+
+	.daily-img {
+		float: none;
+		position: absolute;
+		top: 200px;
+		left: 30px;
+		width: 250px;
+	}
+
+/*	.news-left {
+		width:90%;
+	}*/
+
+	.news-ttl {
+		font-size: 18px;
+	}
+
+	dd.news-ttl a {
+		font-size:22px;
+	}
+
+	dd, dt {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	dd a {
+		font-size: 18px;
+	}
+
+	.copy-bg {
+		height: 300px;
+		text-align: center;
+		background-size: cover;
+		background-position: 60%;
+	}
+
+	.copy-s {
+		font-size: 20px;
+		padding-top: 35px;
+	}
+
+	.copy-s + .btn {
+		float: none;
+		margin: 30px auto;
+	}
+
+	/* ----- safe -----*/
+	.safe {
+		position: static;
+		height: auto;
+	}
+
+	.safe-container {
+		float: none;
+		margin: 0 auto;
+		padding-top: 25px;
+	}
+
+	/* ----- junten -----*/
+	.junten {
+		text-align: center;
+	}
+
+	.junten-img {
+		float: none;
+		width: 250px;
+	}
+
+	/* ----- footer -----*/
+	.foot-nav {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	.foot-item {
+		float: none;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.foot-item a{
+		font-size: 10px;
+		letter-spacing: 0;
+	}
+
+	small {
+		font-size: 10px;
+		padding: 20px 0;
+	}
+}
+
+/* iPhone6 */
+@media all and (max-width: 415px) {
+	.glob-nav {
+		position: absolute;
+		top: 0;
+		right: -100vw;
+		z-index: 100;
+		width: 60vw;
+		height: 100vh;
+		background: rgb(255, 255, 255);
+		opacity:0.95;
+		padding:0 0 0 50px;
+	}
+
+	.nav-item {
+		float: right;
+		margin-right: 50px;
+		margin-left: 0;
+	}
+
+	.nav-item:first-child {
+		margin-right: -10px;
+	}
+
+	.nav-item a {
+		color: #39CFD2;
+		margin-left: 10px;
+	}
+
+	.nav-item .btn {
+		position: absolute;
+		top: 90px;
+		width: 200px;
+		border: 2px solid #39CFD2;
+		right:5px;
+	}
+}
+
+/* iPhone5 */
+@media all and (max-width: 325px) {
+	.nav-item .btn {
+		left:10px;
+		top:70px;
+	}
+	.nav-item:first-child{
+		padding-top:150px;
+	}
+	.nav-item {
+		line-height:60px;
+	}
+
+	.sp-btn {
+		padding:25px 12px 15px 0;
+	}
+}

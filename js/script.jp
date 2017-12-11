@@ -1,0 +1,28 @@
+$(function(){
+	$('a[href^="#"]').on('click', function(){
+		var speed = 400;
+		var href= $(this).attr('href');
+		var target = $(href == '#' || href == '' ? 'html' : href);
+		var position = target.offset().top;
+		close_nav();
+		$('body,html').animate({scrollTop:position}, speed, 'swing');
+		return false;
+	});
+
+	$('.sp-btn').on('click', function(){
+		open_nav();
+	});
+
+	$('.close-btn').on('click', function(){
+		close_nav();
+	});
+
+	// 繝上Φ繝舌�繧ｬ繝ｼ繝懊ち繝ｳ縺ｮ繧ｪ繝ｼ繝励Φ繧ｯ繝ｭ繝ｼ繧ｺ
+	open_nav = function(){
+		$('.glob-nav').stop().animate({right:0});
+	}
+
+	close_nav = function(){
+		$('.glob-nav').stop().animate({right:'-100%'});
+	}
+});
